@@ -1,0 +1,64 @@
+form {
+    background-color: #ffffff;
+    /* Білий колір фону */
+    color: #333;
+    /* Колір тексту */
+    width: 400px;
+    /* Ширина форми */
+    margin: 50px auto;
+    /* Вирівнювання по центру з нижнім відступом */
+    padding: 30px;
+    /* Внутрішні відступи */
+    border-radius: 15px;
+    /* Закруглені кути */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    /* Тінь */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: calc(100% - 20px);
+    /* Ширина інпутів */
+    padding: 10px;
+    /* Внутрішні відступи */
+    margin: 10px 0;
+    /* Зовнішні відступи */
+    border: 1px solid #ccc;
+    /* Подвійна лінія для визначення меж */
+    border-radius: 5px;
+    /* Закруглені кути */
+}
+
+input[type="submit"] {
+    width: calc(100% - 20px);
+    /* Ширина кнопки */
+    padding: 10px;
+    /* Внутрішні відступи */
+    margin: 10px 0;
+    /* Зовнішні відступи */
+    border: none;
+    /* Відсутність меж */
+    border-radius: 5px;
+    /* Закруглені кути */
+    background-color: #4CAF50;
+    /* Зелений колір фону */
+    color: white;
+    /* Колір тексту */
+    cursor: pointer;
+    /* Зміна курсору в курсор-руку */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    /* Зелений колір фону при наведенні */
+}
+
+label {
+    margin-bottom: 5px;
+    /* Зовнішні відступи для міток */
+    display: block;
+    /* Виведення міток кожен у новому рядку */
+}
